@@ -1,0 +1,9 @@
+// No `test` alias on purpose: no test files in the repo.
+// `./test` failing with "alias 'test' not defined" is the intended
+// behaviour — a stub alias that exits 0 reads as a green suite.
+defaults {
+    stall "60s"
+    max-mem 2048
+    max-cpu 95
+    max-parallel 2
+}
