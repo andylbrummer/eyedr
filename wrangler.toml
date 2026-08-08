@@ -1,0 +1,5 @@
+# Cloudflare Pages configuration
+name = "eyedr"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "."
+account_id = "7890ae4b9428f680f6c8e9f106d473d8"

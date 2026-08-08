@@ -1,0 +1,10 @@
+# .env holds a live Cloudflare key and was previously neither tracked nor
+# ignored — one `git add -A` from being committed. devkey now supplies the
+# token to deploy.sh, so nothing here needs to read this file at all.
+.env
+.wrangler/
+.agnt/
+
+# tman shims
+/test
+/test.cmd

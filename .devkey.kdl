@@ -1,0 +1,6 @@
+// Secrets this project needs. `devkey need` reports what is missing and the
+// exact command to fix it. Values live in the machine's system keyring.
+//
+//   devkey need        what is missing right now
+//   ./deploy.sh        already routes through devkey
+needs "cloudflare"
